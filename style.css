@@ -10,8 +10,8 @@ body {
     background-color: #fdfdfd;
 }
 
-/* Header Styling */
-header {
+/* Fullscreen Card Styling (for Header and Footer) */
+.fullscreen-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ header {
     background-color: #fafafa;
 }
 
-header h1 {
+.fullscreen-card h1 {
     font-size: clamp(3rem, 10vw, 6rem); /* Responsive font size */
     font-weight: 700;
     color: #2c3e50;
